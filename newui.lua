@@ -31,7 +31,7 @@ local UICorner_5 = Instance.new("UICorner")
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.ZIndex = 9999
+ScreenGui.Frame.ZIndex = 9999
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
